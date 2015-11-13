@@ -13,14 +13,14 @@
 # names = {'sega': 2, 'mega': 1, 'ivan': 4, 'katya': 6}
 # for key in names:
 #     print(key, names[key])
-
-
+#
+# print('sega' in names)
 # ============================================================
-counts = dict()
-names = ['sega', 'mega', 'ivan', 'sega', 'katya', 'katya']
-for name in names:
-    counts[name] = counts.get(name, 0) + 1
-print(counts)
+# counts = dict()
+# names = ['sega', 'mega', 'ivan', 'sega', 'katya', 'katya']
+# for name in names:
+#     counts[name] = counts.get(name, 0) + 1
+# print(counts)
 
 #=======================================================
 # for name in names:
@@ -36,3 +36,13 @@ print(counts)
 # purse['rise'] = 8
 # purse['rise'] = purse['rise'] + 2
 # print(purse)
+
+# names = {'sega': 2, 'mega': 1, 'ivan': 4, 'katya': 6}
+# names['vova'] = 4
+# print(names)
+# =======================================================
+# counts = dict()
+# names = ['sega', 'mega', 'ivan', 'sega', 'katya', 'katya']
+# for name in names:
+#     counts[name] = counts.get(name, 0) + 1
+# print(counts)

@@ -2,7 +2,7 @@ fname = input("Enter file name: ") # mbox-short.txt
 fn = open(fname)
 count = 0
 for line in fn:
-    if line.startswith('From '):
+    if line.startswith('From: '):
         line = line.rstrip()
         words = line.split()
         if words == []: continue
