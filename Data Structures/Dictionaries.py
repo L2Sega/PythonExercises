@@ -1,3 +1,7 @@
+names = {'sega': 2, 'mega': 1, 'ivan': 4, 'katya': 6}
+x = sorted([(v, k) for k, v in names.items()])
+print(x)
+
 # names = {'sega': 2, 'mega': 1, 'ivan': 4, 'katya': 6}
 # for a, b in names.items():
 #     print(a, b)
